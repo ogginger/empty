@@ -2,12 +2,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build - My Task",
-            "command": "tsc",
+            "label": "Build - My Task (webpack)",
+            "command": "webpack",
             "type": "shell",
             "args": [
-                "-p",
-                "."
+                "--progress",
+                "--config",
+                "webpack.config.js"
             ],
             "problemMatcher": [
                 "$tsc"
@@ -18,13 +19,14 @@
             "group": "build"
         },
         {
-            "label": "Watch - My Task",
+            "label": "Watch - My Task (webpack)",
             "command": "tsc",
             "type": "shell",
             "args": [
                 "--watch",
-                "-p",
-                "."
+                "--progress",
+                "--config",
+                "webpack.config.js"
             ],
             "problemMatcher": [
                 "$tsc"

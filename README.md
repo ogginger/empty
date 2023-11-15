@@ -1,16 +1,13 @@
 # empty
-Empty typescript project for quick-starting development.
-
-Add- 
-  1. src/
-  2. builds/
+Empty webpack+typescript project for quick-starting development.
   
 Update .vscode/
   1. launch.json
-    a. Change the location of the program to run to the .ts entrypoint.
+    a. Change the url to the development url for the project.
   2. tasks.json 
     a. Change 'My Task' to the name of the project.
+  3. Update package.json project name.
     
-Run npm init.
+Run npm install and build the proejct from the build pallette.
 
 Ready to go!
